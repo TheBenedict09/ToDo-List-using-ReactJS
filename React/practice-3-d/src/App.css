@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+nav {
+  height: 90px;
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #348588, #143588);
+}
+.title {
+  padding-left: 20px;
+  display: flex;
+  color: aliceblue;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.title img {
+  padding: 10px;
+  max-width: 70px;
+  max-height: 70px;
+}
+.subtitle {
+  text-align: center;
+  margin-top: auto;
+  color: aliceblue;
+  margin-bottom: auto;
+  margin-right: 30px;
+}
+.t1 {
+  margin-top: 70px;
+  width: 250px;
+  height: 30px;
+  margin-right: 20px;
+  border-width: 2px;
+  border-radius: 20px;
+  text-indent: 10px;
+}
+.t2 {
+  margin-left: 20px;
+  margin-top: 70px;
+  width: 250px;
+  height: 30px;
+  border-width: 2px;
+  border-radius: 20px;
+  text-indent: 10px;
+}
+button {
+  background: linear-gradient(90deg, #348588, #143588);
+  border: 0;
+  color: aliceblue;
+  padding: 10px;
+  font-size: large;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+button:hover {
+  background: #143588;
+}
+
+.input img{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-self: center;
+  display: inline-block;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.imageSection img {
+  display: block;
+  width: 100%;
+}
+
+.imageSection .topText, .imageSection .bottomText {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 3em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  width: 100%;
+  text-align: center;
+}
+
+.imageSection .topText {
+  top:300px;
+}
+
+.imageSection .bottomText {
+  bottom: 40px;
+}

@@ -1,0 +1,91 @@
+/* Navbar */
+nav{
+  height: 70px;
+  display: flex;
+  padding: 10px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+nav > img{
+  margin-left: 40px;
+  display: flex;
+  transform: scale(2);
+}
+/* Navbar */
+
+
+
+/* Hero */
+.hero > img{
+  margin-top: 40px;
+  width: 70%;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+.hero > h1{
+  margin-left: 120px;
+  font-size: 80px;
+}
+.hero > P{
+  width: 700px;
+  margin-left: 120px;
+  font-size: 50px;
+}
+/* Hero */
+
+/* Card */
+.card {
+  position: relative;
+  margin-top: 120px;
+  margin-left: 120px;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+}
+.star-icon{
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  margin-top: 7px;
+}
+.card div{
+  display: flex;
+  gap: 9px;
+  justify-content: flex-start;
+}
+.card div span{
+  margin-top: 7px;
+  color: grey;
+  font-size: large;
+}
+.card p{
+  width: 270px;
+  font-size:25px;
+  color: black;
+}
+.bold{
+  font-weight: 600;
+}
+.badge p{
+  display: inline;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  font-size: large;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  position: absolute;
+}
+
+.BOX{
+  width: 100px;
+  height: 100px;
+  border-style: dotted;
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Card */

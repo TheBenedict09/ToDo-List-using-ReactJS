@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+nav{
+  height: 90px;
+  background-color: #f55a5a;
+}
+nav img{
+  display: flex;
+  max-width: 50px;
+  max-height: 50px;
+}
+nav h2{
+  color: white;
+}
+nav div{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+/* NAV BAR */
+
+/* Card */
+.card{
+  justify-content: center;
+  align-items: center;
+  display: flex
+  
+}
+.classPic{
+  height: 300px;
+  width: 230px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.location{
+  padding-top: 50px;
+
+  text-align: left;
+  gap: 5px;
+  align-items: center;
+  display: flex;
+}
+.details{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  text-align: left;
+  padding-bottom: 50px;
+}
+.details > * {
+  margin-bottom: 0px; /* Adjust this value to reduce gaps between elements */
+}
+.desc{
+  width: 200px;
+  height: 130px;
+  word-wrap: break-word;
+  overflow: auto;
+}
